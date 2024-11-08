@@ -1,6 +1,10 @@
+/*api usada para fins didáticos*/
+/*function key (apiKey) {
+        /*const apiKey = "AIzaSyABCXDyTCj1k-_3siNdzIdni8MxbXYqgzE"*/
+} 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyABCXDyTCj1k-_3siNdzIdni8MxbXYqgzE",
+apikey();
     authDomain: "projeto-teste-104c8.firebaseapp.com",
     projectId: "projeto-teste-104c8",
     storageBucket: "projeto-teste-104c8.appspot.com",
@@ -9,3 +13,7 @@ const firebaseConfig = {
 }
 
 export default firebaseConfig
+
+function key (apiKey) {
+        const apiKey = "AIzaSyABCXDyTCj1k-_3siNdzIdni8MxbXYqgzE"
+} 
